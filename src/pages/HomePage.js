@@ -5,7 +5,9 @@ export default function HomePage() {
   return (
     <Fragment>
       <Hero title="awesome gadgets" max="true">
-        <Link to="/products">Our Products {";)"}</Link>
+        <Link className="main-link" to="/products" style={{ margin: "2rem" }}>
+          Our Products
+        </Link>
       </Hero>
     </Fragment>
   );
