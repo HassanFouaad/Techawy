@@ -5,9 +5,10 @@ const ProductContext = React.createContext();
 class ProductProvider extends Component {
   state = {
     sidebarOpen: false,
-    cartOpen: false,
+    cartOpen: true,
     cartItems: 10,
     links: linkData,
+    cart: [],
   };
 
   //Handgle Side Bar

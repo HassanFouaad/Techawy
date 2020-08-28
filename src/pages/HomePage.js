@@ -1,9 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { ProductConsumer } from "../context/context";
 
 export default function HomePage() {
-  return (
-    <Fragment>
-      <h1>HomePage</h1>;
-    </Fragment>
-  );
+  return <ProductConsumer></ProductConsumer>;
 }

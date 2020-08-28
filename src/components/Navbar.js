@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <ProductConsumer>
       {(value) => {
-        const { cartItems, handleSideBar, handleSideCart } = value;
+        const { cartItems, handleSideBar, handleCart } = value;
         return (
           <NavWrapper>
             <div className="nav-center">
@@ -16,7 +16,7 @@ export default function Navbar() {
               <div className="nav-cart">
                 <FaCartPlus
                   className="nav-icon"
-                  onClick={handleSideCart}
+                  onClick={handleCart}
                 ></FaCartPlus>
                 <div className="cart-items">{cartItems}</div>
               </div>
