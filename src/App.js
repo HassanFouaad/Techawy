@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import SideCart from "./components/SideCart";
 import Footer from "./components/Footer";
+import Default from "./pages/Default";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/products" exact component={Contact} />
         <Route path="/products/:id" component={SingleProduct} />
         <Route path="/cart" exact component={Cart} />
+        <Route path="/" component={Default} />
       </Switch>
       <Footer />
     </Router>
