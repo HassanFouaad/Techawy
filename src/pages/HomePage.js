@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { ProductConsumer } from "../context";
 
 export default function HomePage() {
   return (
