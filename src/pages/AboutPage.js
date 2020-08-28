@@ -1,10 +1,13 @@
 import React from "react";
 import { Fragment } from "react";
-
+import Info from "../components/AboutPage/info";
+import Hero from "../components/Hero";
+import aboutBcg from "../images/aboutBcg.jpeg";
 export default function AboutPage() {
   return (
     <Fragment>
-      <h1>AboutPage</h1>
+      <Hero img={aboutBcg}></Hero>
+      <Info></Info>
     </Fragment>
   );
 }

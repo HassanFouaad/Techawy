@@ -7,7 +7,9 @@ export default function Default() {
     <Fragment>
       <Hero img={defaulyBCG} max="true" title="404">
         <h2 className="text-uppercase">Page Not Found</h2>
-        <Link to="/" className="main-link" style={{marginTop:"2rem"}}>Return Home</Link>
+        <Link to="/" className="main-link" style={{ marginTop: "2rem" }}>
+          Return Home
+        </Link>
       </Hero>
     </Fragment>
   );
