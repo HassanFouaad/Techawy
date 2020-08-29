@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap&family=Cairo");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
 :root {
-  --primaryColor: #5fb7ea;
+  --primaryColor: #F26D64;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
   --mainGrey: #fafafa;
   --darkGrey: #5f5e5e;
@@ -42,4 +42,9 @@ body {
   text-decoration: none;
   color: var(--primaryColor);
   outline-color: var(--darkGrey);
+}
+
+.Techawy{
+  color: var(--primaryColor);
+  
 }

@@ -6,7 +6,7 @@ import Featured from "../components/HomePage/Featured";
 export default function HomePage() {
   return (
     <Fragment>
-      <Hero title="awesome gadgets" max="true">
+      <Hero title="متعه التسوق بين يديك" max="true">
         <Link
           className="main-link"
           to="/products"
