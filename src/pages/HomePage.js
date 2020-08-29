@@ -7,8 +7,12 @@ export default function HomePage() {
   return (
     <Fragment>
       <Hero title="awesome gadgets" max="true">
-        <Link className="main-link" to="/products" style={{ margin: "2rem" }}>
-          Our Products
+        <Link
+          className="main-link"
+          to="/products"
+          style={{ margin: "2rem", fontFamily: "Cairo", letterSpacing: "1px" }}
+        >
+          !تسوق الان
         </Link>
       </Hero>
       <Services></Services>

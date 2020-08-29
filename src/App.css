@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap&family=Cairo");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
 :root {
   --primaryColor: #5fb7ea;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
@@ -34,6 +34,7 @@ body {
   outline: 2px solid var(--primaryColor);
   outline-offset: 4px;
   border: none;
+
   transition: var(--mainTransition);
 }
 .main-link:hover {

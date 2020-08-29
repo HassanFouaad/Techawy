@@ -17,8 +17,8 @@ export default function Footer() {
                   </p>
                 </div>
                 <div className="col-md-6 d-flex justify-content-around">
-                  {value.socialLinks.map((item) => (
-                    <a href={item.url} key={item.id}>
+                  {value.socialLinks.map((item,i) => (
+                    <a href={item.url} key={i}>
                       {item.icon}
                     </a>
                   ))}

@@ -9,21 +9,20 @@ export default class Services extends Component {
         icon: <FaDolly />,
         title: "free shipping",
         text:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus.",
+          "!التوصيل مجانا لباب المنزل مع امكانيه اختيار وقت التوصيل والاستلام المناسب لك",
       },
       {
         id: 2,
         icon: <FaRedo />,
         title: "30 days return policy",
         text:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus.",
+          "امكانيه استرجاع المنتج والحصول على المبلغ المدفوع كاملا خلال 30 يوم من استلام المنتج",
       },
       {
         id: 3,
         icon: <FaDollarSign />,
         title: "secured payment",
-        text:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, accusamus.",
+        text: "!نوفر لك طرق دفع امنه ومختلفه لاختيار الطريقه المناسبه لك",
       },
     ],
   };
@@ -40,7 +39,7 @@ export default class Services extends Component {
                 >
                   <div className="service-icon">{item.icon}</div>
                   <p className="mt-3 text-capitalize">{item.title}</p>
-                  <div className="mt-3">{item.text}</div>
+                  <div className="mt-3" style={{fontFamily:"Cairo"}}>{item.text}</div>
                 </div>
               );
             })}
@@ -59,5 +58,6 @@ const ServicesWrapper = styled.section`
   }
   p {
     color: var(--mainWhite);
+
   }
 `;
