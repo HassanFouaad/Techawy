@@ -27,6 +27,11 @@ const HeroWrapper = styled.div`
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
   }
+  @media (max-width: 574px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  }
 `;
 
 Hero.defaultProps = {
