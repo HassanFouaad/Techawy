@@ -35,7 +35,11 @@ export default function SideCart() {
               >
                 اشتري الان
               </Link>
-              <Link to="/products" className="main-link" style={{ letterSpacing: "0px", fontFamily: "Cairo" }}>
+              <Link
+                to="/products"
+                className="main-link"
+                style={{ letterSpacing: "0px", fontFamily: "Cairo" }}
+              >
                 العوده للتسوق
               </Link>
             </div>
